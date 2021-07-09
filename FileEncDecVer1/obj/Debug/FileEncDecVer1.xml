@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FileEncDecVer1
+</name>
+</assembly>
+<members>
+<member name="T:FileEncDecVer1.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:FileEncDecVer1.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:FileEncDecVer1.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:FileEncDecVer1.clsSecurityLayer.KEY_128">
+ <summary>
+ Necessary declaration
+ </summary>
+</member>
+<member name="M:FileEncDecVer1.clsSecurityLayer.#ctor">
+ <summary>
+ Class default constructor
+ </summary>
+</member>
+<member name="M:FileEncDecVer1.clsSecurityLayer.doEncrypt(System.String)">
+ <summary>
+ This function encrypts the string file
+ </summary>
+ <param name="sPlainText">String: plain text file content</param>
+ <returns>String: Encrypted file content</returns>
+</member>
+<member name="M:FileEncDecVer1.clsSecurityLayer.doDecrypt(System.String)">
+ <summary>
+ This function decrypt the content of the encrypted file
+ </summary>
+ <param name="sCypherText">String: The encrypted file</param>
+ <returns>String: the plain text file decrypted</returns>
+</member>
+</members>
+</doc>
